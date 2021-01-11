@@ -1,5 +1,6 @@
 html *{
     font-family: Arial, Helvetica, sans-serif !important;
+    color: white;
 }
 
 body {
@@ -12,7 +13,7 @@ h2, p, .readme-wrapper {
 
 a {
     text-decoration: none;
-    color: red;
+    color: rgb(249, 249, 250);
 }
 
 a:hover {
@@ -20,3 +21,28 @@ a:hover {
     cursor: pointer;
     font-weight: 900;
 }
+
+.boxes {
+    margin: 2em;
+    padding: 10px;
+    border: 1em solid rgb(0, 255, 13);
+    border-radius: 20px;
+    width: 30em;
+}
+
+#box1 {
+    background: rgb(0, 0, 255);
+}
+
+#box2 {
+    background: rgb(0, 0, 185);
+}
+
+#box3 {
+    background: rgb(1, 1, 138);
+}
+
+#box4 {
+    background: rgb(0, 0, 36);
+}
+
